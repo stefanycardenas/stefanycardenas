@@ -1,0 +1,89 @@
+* {
+  font-family: "Oxygen", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+img {
+  width: inherit;
+  max-width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image:/* url("https://cutewallpaper.org/21/pokemon-background-gif/poke-backgrounds-Tumblr.gif");*/
+    url("../img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: auto;
+}
+
+.header {
+  border-radius: 30px 30px 0px 0px;
+  /*display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;*/
+  margin: 1% 2% 0% 2%;
+  padding: 0.5% 1%;
+  height: 3rem;
+}
+
+.header--glass-dark {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(15px);
+}
+
+.main {
+  border-radius: 0px 0px 30px 30px;
+  margin: 0% 2% 0% 2%;
+  padding: 0.5% 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main--glass-light {
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(15px);
+}
+
+.main__title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0% 2% 0% 2%;
+  padding: 0.5% 1%;
+}
+
+.main__name {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(15px);
+  border-radius: 15px 15px 15px 15px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  margin: 0% 2% 0% 2%;
+  padding: 3%;
+  text-align: center;
+  width: 100%;
+}
+
+.main__properties{
+  border-radius: 20px 20px 20px 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100%;
+  width: 25rem;
+}
+
+.main__property--item {
+  padding: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
